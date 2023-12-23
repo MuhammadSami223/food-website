@@ -1,0 +1,105 @@
+.container{
+display: flex;
+position: relative;
+margin-left: 2rem;
+}
+.left{
+display: flex;flex-direction: column;
+gap: 2rem;
+}
+.cherrydiv{
+display: flex;
+/* flex-direction: column; */
+width: fit-content;
+background-color: var(--pink);
+margin-top: 3rem;
+padding: 1rem;
+color: var(--themeRed);
+font-size: 0.8rem;
+font-weight: bold;
+justify-content: center;
+align-items: center;
+
+}
+.herotext{
+    display: flex;
+    flex-direction: column;
+    font-size: 4rem;
+    font-weight: bold;
+}
+.minitext{
+    width: 70%;
+    color: gray;
+    font-weight: 600;
+}
+.herobtn{
+    padding: 1rem 2.5rem;
+}
+
+
+/* Right side */
+.right{
+    position: relative;
+
+}
+
+.imagecontainer{
+    width: 38rem;
+    position: absolute;
+    top: -5rem;
+    left: -5rem;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    padding: 1rem;
+    top: 6rem;
+    border-radius: 5rem;
+    position: absolute;
+    background-color: white;
+    box-shadow: var(--shadow);
+    color: var(--themeRed);
+    gap: 1rem;
+    left: -6rem;
+}
+.contact:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.contact>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(59,208,59);
+    width: 2.5rem;
+    border-radius: 50%;
+    height: 2.5rem;
+}
+.pizza{
+    display: flex;
+    padding: 0.5rem;
+    background-color: white;
+    box-shadow: var(--shadow);
+    gap: 2rem;
+    position: absolute;
+    bottom: 4rem;
+    left: 19rem;
+    width: max-content;
+}
+.pizza:hover{
+    transform: scale(1.1);
+}
+.pizza>:nth-child(1){
+width: 5rem;
+height: 4rem;
+overflow: hidden;
+border-radius: .5rem;
+}
+.pizza>:nth-child(2){
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+font-weight: bold;
+}

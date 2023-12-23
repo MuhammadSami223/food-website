@@ -1,0 +1,28 @@
+.formcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:  1rem;
+}
+.formcontainer>input,
+.formcontainer>textarea{
+    width: 100%;
+    padding: 0.8rem;
+    outline: none;
+    border:2px solid rgba(213,213 ,213  );
+    border-radius: .4rem;
+}
+.formcontainer>span>span{
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: var(--themeRed);
+}
+.formcontainer>span{
+    font-weight: bold;
+    font-size: 1rem;
+    /* color: var(--themRed); */
+}
+.formcontainer>button{
+    width: 150px;
+    font-size: 1rem;
+}

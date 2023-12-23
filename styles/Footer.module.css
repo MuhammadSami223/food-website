@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 6rem;
+
+}
+.social{
+    color: var(--themeRed);
+}
+.container>span{
+    
+    color: var(--themeRed);
+}
+.logo{
+    width: 110px;
+ display: flex;   
+ gap: 1rem;
+}
+.logo>span{
+    font-weight: 900;
+    font-size: 24px;
+}

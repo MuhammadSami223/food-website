@@ -1,0 +1,49 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+.logo{
+    height: 50px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo>span{
+    font-weight: 900;
+    font-size: 23px;
+}
+.menu>ul{
+display: flex;
+gap: 20px;
+list-style: none;
+font-weight: 800;
+}
+.menu>li{
+padding-left:1rem;
+}
+.menu>ul:hover{
+    color: var(--themeRed);
+    cursor: pointer;
+}
+.right{
+    font-weight: 900;
+    display: flex;
+}
+.right:hover{
+    cursor: pointer;
+}
+.badge{
+    border: 2px solid var(--themeRed);
+    border-radius: 50%;
+    font-size: 13px;
+height: 20px;
+width: 20px;
+background-color: var(--themeRed);
+align-items: center;
+display: flex;
+justify-content: center;
+margin-left: -12px;
+}

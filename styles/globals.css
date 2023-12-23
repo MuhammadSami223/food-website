@@ -19,7 +19,15 @@ body {
   --background-color:  linear-gradient(180deg, rgba(255, 237, 237, 0.85) 0%, rgba(255, 255, 255, 0) 30rem);
   --cartBack : rgba(255, 255, 255, 0.38);
 }
-
+.btn{
+  width: max-content;
+  padding: 1rem;
+border-radius: 4rem;
+background-color: var(--themeRed);
+border: none;
+font-size: 1.1rem;
+color: white;
+}
 
 /* width */
 ::-webkit-scrollbar {
