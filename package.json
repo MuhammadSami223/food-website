@@ -5,8 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "start": "next start",
-    "lint": "next lint",
-    "build": "babel src -d lib",
+      "build": "next build",
+    "start": "next start",
     "test": "jest"
   },
   "dependencies": {
