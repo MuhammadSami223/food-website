@@ -24,7 +24,7 @@ function Menu({ pizzas }) {
                 <Link href={`./pizza/${pizza.slug.current}`}>
 
                 <div className={css.imagewrapper}>
-                  <Image loader={()=>src}  src={src} alt='' objectFit='cover' layout='fill'/>
+                  <Image loader={()=>src}  src={src} alt='description of image' objectFit='cover' layout='fill'/>
                 </div>
                 </Link>
                 <span>{pizza.name}</span>
