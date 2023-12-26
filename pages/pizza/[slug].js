@@ -3,7 +3,7 @@ import css from '../../styles/Pizza.module.css'
 // import { createClient } from "@sanity/client";
 import { urlFor } from "../../lib/client";
 import {client} from '../../lib/client'
-import Image from "next/Image";
+import Image from "next/image";
 import LeftArrow from '../../assets/arrowLeft.png'
 import rightArrow from '../../assets/arrowRight.png'
 import toast, { Toaster } from 'react-hot-toast';
