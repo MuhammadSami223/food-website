@@ -103,3 +103,24 @@ flex-direction: column;
 justify-content: space-between;
 font-weight: bold;
 }
+@media screen and (max-width:480px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .herotext{
+        font-size: 2.4rem;
+    }
+    .pizza{
+        display: flex;
+        left: 0px;
+    }
+    .imagecontainer{
+        width: 19rem;
+        margin-left: 48px;
+        margin-top: 128px;
+}
+    }
+    .contact{
+        display: none;
+    }

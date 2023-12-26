@@ -30,7 +30,7 @@ export default function Cart() {
                     <span>Name</span>
                     <span>Size</span>
                     <span>Price</span>
-                    <span>Quantity</span>
+                    <span>Qty</span>
                     <span>Total</span>
                     <span></span>
                 </div>
@@ -78,7 +78,7 @@ export default function Cart() {
                 }
             </div>
                 <div className={css.carts}>
-                <span>Cart</span>
+                <span>CheckOut</span>
                 <div className={css.cartdetails}>
                     <div>
                         <span>items</span>
@@ -90,7 +90,7 @@ export default function Cart() {
                     </div>
                 </div>
                     <div className={css.button}>
-                        <button className="btn" onClick={handleOnDelivery}>Order Now</button>
+                        <button className="btn" style={{background:"var(--themeRed)",color:"white",fontSize:"14px"}} onClick={handleOnDelivery}>Order Now</button>
                         {/* <button className="btn">Pay Now</button> */}
                     </div>
                 </div>

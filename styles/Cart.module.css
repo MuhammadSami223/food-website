@@ -106,3 +106,45 @@ gap: 0.6rem;
     display: flex;
     gap:10px
 }
+@media screen and (max-width:480px){
+    .container{
+        padding: 2rem;
+    gap: 2rem;
+    flex-direction: column;
+    display: flex;
+    }
+    .details>tr>:nth-child(7){
+        margin-right: 120px;
+    }
+    .theading{
+        display: flex;
+    gap: 15px;
+    margin-left: 0px;
+    }
+.theading>:nth-child(1){
+        display: none;
+    }
+.theading>:nth-child(3){
+    margin-left: 10px;
+}
+
+    .theading>:nth-child(4){
+        padding-left: 2px;
+    }
+        
+    .theading>:nth-child(3){
+        /* display: none; */
+        margin-left: 21px;
+    }
+    .details>tr>:nth-child(6){
+        padding-left: 0px;
+    }
+    .details>tr>:nth-child(1){
+        /* padding-left: 0px; */
+        display: none;
+    }
+    .cart{
+        width: 23rem;
+        margin-left: -20px;
+    }
+}

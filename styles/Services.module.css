@@ -40,3 +40,13 @@
     word-wrap: break-word;
     text-align: center;
 }
+@media screen and (max-width:480px){
+    .heading{
+        display: flex;
+        margin-top: 451px;
+    
+    }
+    .services{
+        display: flex;flex-direction: column;
+    }
+}

@@ -68,9 +68,16 @@ const addToCart=()=>{
                     </div>
                 </div>
              {/* button */}
+             <div className={css.buttons}>
+
              <div className={`btn ${css.btn}`} onClick={addToCart} >
                 Add to Cart
              <Toaster/>
+             </div>
+             <div className={`btn ${css.btn}`}onClick={()=>handleRemove(i)} >
+                Remove from Cart
+             <Toaster/>
+             </div>
              </div>
                 </div>
             </div>

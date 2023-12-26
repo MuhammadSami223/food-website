@@ -18,7 +18,7 @@ const handleSubmit=async(e)=>{
     e.preventDefault()
    const id =createOrder({...FormData,total,PaymentMethod,pName})
 toast.success("order placed",)
-console.log("order placed",id)
+// console.log("order placed",id)
 resetCart()
   }
   return (

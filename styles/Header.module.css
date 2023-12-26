@@ -47,3 +47,8 @@ display: flex;
 justify-content: center;
 margin-left: -12px;
 }
+@media screen and (max-width:480px){
+    .menu >ul{
+        display: none;
+    }
+}

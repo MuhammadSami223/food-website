@@ -79,3 +79,45 @@
     color: white;
     cursor: pointer;
 }
+.btn2{
+    background-color: transparent;
+}
+@media screen and (max-width:480px){
+    .container{
+display: flex;
+flex-direction: column;
+box-shadow: var(--shadow);
+    }
+    .imagewrapper{
+        width: 117%;
+        height: 21rem;
+        margin-left: -26px;
+    
+    }
+    .buttons{
+        display: flex;
+        gap: 8px;
+    }
+    .right{
+        display: flex;
+        gap: 30px;
+    }
+    .size{
+        display: flex;
+    gap: 0rem;
+    /* font-weight: 600; */
+    font-size: 1.4rem;
+    }
+    .size>span{
+        margin-left: -10px;
+        font-weight: bold;
+        margin-right: 2px;
+    }
+    .btn{
+        height: 3rem;
+        display: flex;align-items: center;
+        justify-content: center;
+
+    }
+   
+    }
