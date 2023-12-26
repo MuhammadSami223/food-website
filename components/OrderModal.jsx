@@ -16,7 +16,7 @@ setFormData({...FormData, [e.target.name]:e.target.value})
 }
 const handleSubmit=async(e)=>{
     e.preventDefault()
-   const id =createOrder({...FormData,total,PaymentMethod,pName})
+   const id =createOrder({...FormData,total,PaymentMethod})
 toast.success("order placed",)
 // console.log("order placed",id)
 resetCart()
