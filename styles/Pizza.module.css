@@ -102,6 +102,9 @@ box-shadow: var(--shadow);
         display: flex;
         gap: 30px;
     }
+    .right>:nth-child(1){
+        margin-top:-30px;
+    }
     .size{
         display: flex;
     gap: 0rem;
