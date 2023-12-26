@@ -10,7 +10,7 @@ export default function OrderModal({open,setOpened,PaymentMethod}) {
 const [FormData,setFormData]=useState({})
 const resetCart=useStore((set)=>set.resetCart)
 const total=typeof window!=='undefined'&& localStorage.getItem('total')
-const pName=typeof window!=='undefined'&& localStorage.getItem('pName')
+// const pName=typeof window!=='undefined'&& localStorage.getItem('pName')
 const handleInput=(e)=>{
 setFormData({...FormData, [e.target.name]:e.target.value})
 }
@@ -34,7 +34,7 @@ resetCart()
         {/* Modal content */}
         <form action="" className={css.formcontainer} onSubmit={handleSubmit}>
             <input onChange={handleInput}type="text" name='name' required placeholder='Name'/>
-            <input onChange={handleInput}type="text" name='pName' required placeholder='Pizza Name'/>
+{/*             <input onChange={handleInput}type="text" name='pName' required placeholder='Pizza Name'/> */}
             <input onChange={handleInput} type="text" name='phone'required placeholder='Phone Number'/>
             <textarea onChange={handleInput} name="address" rows="3" required placeholder='Address'></textarea>
             
