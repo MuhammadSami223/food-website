@@ -1,7 +1,7 @@
 import Layout from "../components/Layout"
 import { urlFor } from "../lib/client"
 import { useStore } from "../store/store"
-import Image from "next/Image"
+import Image from "next/image"
 import css from '../styles/Cart.module.css'
 import toast,{ Toaster } from "react-hot-toast"
 import { useState } from "react"
