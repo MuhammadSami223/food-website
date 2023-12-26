@@ -1,5 +1,5 @@
 import css from '../styles/Services.module.css'
-import Image from 'next/Image'
+import Image from 'next/image'
 import s1 from '../assets/s1.png'
 import s3 from '../assets/s3.png'
 import s2 from '../assets/s2.png'
