@@ -13,7 +13,7 @@ const Footer = () => {
   <UilFacebook  size={45}/>
 </div>
 <div className={css.logo}>
-  <Image src={Logo} alt=''/>
+  <Image src={Logo} alt='description of image'/>
   <span>Fudo</span>
 </div>
 </div>
