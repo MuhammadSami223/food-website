@@ -18,7 +18,7 @@ export default function Header() {
         {/* logo side */}
         <Link href='/'>
           <div className={css.logo}>
-            <Image src={Logo} alt='' />
+            <Image src={Logo} alt='description of image' />
             <span>Fudo</span>
           </div>
         </Link>
