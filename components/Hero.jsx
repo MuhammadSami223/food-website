@@ -3,7 +3,7 @@ import Cherry from '../assets/Cherry.png'
 import HeroImage from '../assets/HeroImage.png' 
 import Pizza1 from '../assets/p1.jpg' 
 // import {FaPhoneAlt} from 'react-icons/fa'
-import Image from 'next/Image'
+import Image from 'next/image'
 function Hero() {
   return (
     <div>
