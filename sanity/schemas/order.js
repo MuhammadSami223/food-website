@@ -32,11 +32,7 @@ export default  {
         title:'Method',
         type:'number',  
     },
-    {
-        name:'pName',
-        title:'pName',
-        type:'string',  
-    },
+   
     {
         name:'total',
         title:'Total',
