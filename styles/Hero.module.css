@@ -116,13 +116,14 @@ font-weight: bold;
     left: -37px;
     top: 335px;
 }
-    }
+
     .imagecontainer{
         width: 19rem;
         margin-left: 48px;
         margin-top: 128px;
 }
-    }
+    
     .contact{
         display: none;
+    }
     }
