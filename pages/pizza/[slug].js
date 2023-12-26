@@ -32,7 +32,7 @@ const addToCart=()=>{
         <Layout>
             <div className={css.container}>
                 <div className={css.imagewrapper}>
-                    <Image loader={()=>src} alt='' src={src}
+                    <Image loader={()=>src} alt='description of image' src={src}
                     layout="fill" unoptimized objectfit="cover"/>
                 </div>
 
