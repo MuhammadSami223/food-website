@@ -16,7 +16,7 @@ function Services() {
         <div className={css.feature}>
             <div className={css.imagewrapper}>
 
-            <Image src={s1} alt="" object-fit="cover"
+            <Image src={s1} alt="description of image" object-fit="cover"
             layout="intrinsic"/>
             </div>
             <span>Easy to food order</span>
@@ -24,14 +24,14 @@ function Services() {
         </div>
         <div className={css.feature}><div className={css.imagewrapper}>
 
-<Image src={s2} alt="" object-fit="cover"
+<Image src={s2} alt="description of image" object-fit="cover"
 layout="intrinsic"/>
 </div>
 <span>Easy to food order</span>
 <span>You only need a few steps in food ordering</span></div>
         <div className={css.feature}><div className={css.imagewrapper}>
 
-<Image src={s3} alt="" object-fit="cover"
+<Image src={s3} alt="description of image" object-fit="cover"
 layout="intrinsic"/>
 </div>
 <span>Easy to food order</span>
