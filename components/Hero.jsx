@@ -3,7 +3,7 @@ import Cherry from '../assets/Cherry.png'
 import HeroImage from '../assets/HeroImage.png' 
 import Pizza1 from '../assets/p1.jpg' 
 // import {FaPhoneAlt} from 'react-icons/fa'
-import Image from 'next/Image'
+import Image from 'next/image'
 function Hero() {
   return (
     <div>
@@ -11,7 +11,7 @@ function Hero() {
           <div className={css.left}>
             <div className={css.cherrydiv}>
 <span>More Than faster</span>
-<Image  src={Cherry} alt='' width={35} height={25}
+<Image  src={Cherry} alt='description of image' width={35} height={25}
 />
             </div>
 
@@ -30,7 +30,7 @@ function Hero() {
           </div>
           <div className={css.right}>
             <div className={css.imagecontainer}>
-              <Image src={HeroImage} layout='intrinsic'/>
+              <Image src={HeroImage} layout='intrinsic' alt='description of image'/>
             </div>
             <div className={css.contact}>
               <span>Contact Us</span>
@@ -41,7 +41,7 @@ function Hero() {
 
             <div className={css.pizza}>
               <div>
-                <Image src={Pizza1} alt='' layout='intrinsic' objectFit='cover'/>
+                <Image src={Pizza1} alt='description of image' layout='intrinsic' objectFit='cover'/>
               </div>
               <div className={css.detail}>
                 <span>Italian pizza</span>

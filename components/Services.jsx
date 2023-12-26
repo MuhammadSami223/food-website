@@ -1,5 +1,5 @@
 import css from '../styles/Services.module.css'
-import Image from 'next/Image'
+import Image from 'next/image'
 import s1 from '../assets/s1.png'
 import s3 from '../assets/s3.png'
 import s2 from '../assets/s2.png'
@@ -16,7 +16,7 @@ function Services() {
         <div className={css.feature}>
             <div className={css.imagewrapper}>
 
-            <Image src={s1} alt="" object-fit="cover"
+            <Image src={s1} alt="description of image" object-fit="cover"
             layout="intrinsic"/>
             </div>
             <span>Easy to food order</span>
@@ -24,14 +24,14 @@ function Services() {
         </div>
         <div className={css.feature}><div className={css.imagewrapper}>
 
-<Image src={s2} alt="" object-fit="cover"
+<Image src={s2} alt="description of image" object-fit="cover"
 layout="intrinsic"/>
 </div>
 <span>Easy to food order</span>
 <span>You only need a few steps in food ordering</span></div>
         <div className={css.feature}><div className={css.imagewrapper}>
 
-<Image src={s3} alt="" object-fit="cover"
+<Image src={s3} alt="description of image" object-fit="cover"
 layout="intrinsic"/>
 </div>
 <span>Easy to food order</span>

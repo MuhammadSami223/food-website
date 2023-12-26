@@ -1,5 +1,5 @@
 import css from '../styles/Footer.module.css'
-import Image from 'next/Image'
+import Image from 'next/image'
 import Logo from '../assets/Logo.png'
 import {UilFacebook,UilGithub,UilLinkedin} from '@iconscout/react-unicons'
 const Footer = () => {
@@ -13,7 +13,7 @@ const Footer = () => {
   <UilFacebook  size={45}/>
 </div>
 <div className={css.logo}>
-  <Image src={Logo} alt=''/>
+  <Image src={Logo} alt='description of image'/>
   <span>Fudo</span>
 </div>
 </div>

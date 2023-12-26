@@ -1,6 +1,6 @@
 import css from '../styles/Header.module.css'
 import Logo from '../assets/Logo.png'
-import Image from 'next/Image'
+import Image from 'next/image'
 import { useStore } from '../store/store'
 import { UilShoppingBag } from '@iconscout/react-unicons'
 import Link from 'next/link'
@@ -18,7 +18,7 @@ export default function Header() {
         {/* logo side */}
         <Link href='/'>
           <div className={css.logo}>
-            <Image src={Logo} alt='' />
+            <Image src={Logo} alt='description of image' />
             <span>Fudo</span>
           </div>
         </Link>

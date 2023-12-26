@@ -1,5 +1,5 @@
 import { urlFor } from '../lib/client'
-import Image from 'next/Image'
+import Image from 'next/image'
 import css from '../styles/Menu.module.css'
 import Link from 'next/link'
 function Menu({ pizzas }) {
@@ -24,7 +24,7 @@ function Menu({ pizzas }) {
                 <Link href={`./pizza/${pizza.slug.current}`}>
 
                 <div className={css.imagewrapper}>
-                  <Image loader={()=>src}  src={src} alt='' objectFit='cover' layout='fill'/>
+                  <Image loader={()=>src}  src={src} alt='description of image' objectFit='cover' layout='fill'/>
                 </div>
                 </Link>
                 <span>{pizza.name}</span>
