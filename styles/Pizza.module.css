@@ -66,6 +66,9 @@
     display: flex;
     gap: 1rem;
 }
+.buttons{
+    display:flex;
+    gap:8px;
 .btn{
     font-weight: normal;
     font-size: 1rem;
