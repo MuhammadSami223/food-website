@@ -31,7 +31,7 @@ margin-left: 23px;
 }
 .menu{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     row-gap: 2rem;
     flex-wrap: wrap;
     align-items: center;
