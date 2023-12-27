@@ -30,11 +30,12 @@ margin-left: 23px;
     border-radius: 2rem;
 }
 .menu{
-    display: flex;
-    justify-content: space-between;
-    row-gap: 2rem;
+ display: flex;
+    justify-content: center;
+    /* row-gap: 1rem; */
     flex-wrap: wrap;
     align-items: center;
+    gap: 5rem;
 }
 .pizza{
     display: flex;
