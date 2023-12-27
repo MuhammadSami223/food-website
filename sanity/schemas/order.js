@@ -14,7 +14,7 @@ export default  {
     {
         name:'phone',
         title:'Phone',
-        type:'string',
+        type:'string'
         options:{
             maxLength:15
         }     
